@@ -15,10 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React 跟新
         </a>
       </header>
-      更新
     </div>
   );
 }
