@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/*
+* means all elements 
+margin + padding helps to set default margins
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cal {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(106, 106, 106);
+}
+
+.cal h1{
+  position: absolute;
+  left:60px; 
+  top:140px;
+  color:#000000;
+}
+
+.cal p{
+  position: absolute;
+  left:60px; 
+  top:200px;
+  color:#000000;
+}
+
+.width {
+  width: 250px;
+  display: inline-block;
+}

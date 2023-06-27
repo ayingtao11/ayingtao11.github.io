@@ -1,0 +1,26 @@
+/*.nav .text etc all means this only apply to the selected class(s)
+.text is inside .nav in this case*/
+.nav .text{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+/*:hover = active when arrow is on a button or link*/
+.nav :hover {
+  background-color: #111;
+}
+  
+.nav .active {
+  background-color: #04AA6D;
+}
+
+.nav .background {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
