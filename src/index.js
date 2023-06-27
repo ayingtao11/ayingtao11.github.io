@@ -5,7 +5,6 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import PEMDASCalculator from "./pages/PEMDASCalculator";
 import SimpleCalculator from "./pages/SimpleCalculator";
-import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 export default function App() {
   return (
