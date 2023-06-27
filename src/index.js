@@ -24,16 +24,11 @@ export default function App() {
 //remember to import ReactDOM from 'react-dom/client';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-     <App />
-   </BrowserRouter>
-  
-);
-/*
-<React.StrictMode>
+  <React.StrictMode>
     <App />
   </React.StrictMode>
-  
+);
+/*
 ReactDOM.render is no longer supported in React 18. Use createRoot instead.
 Until you switch to the new API, your app will behave as if it's running React 17.
 
