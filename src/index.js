@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import PEMDASCalculator from "./pages/PEMDASCalculator";
-import SimpleCalculator from "./pages/SimpleCalculator";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './pages/Layout';
+import Home from './pages/Home';
+import PEMDASCalculator from './pages/PEMDASCalculator';
+import SimpleCalculator from './pages/SimpleCalculator';
 
 export default function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="pemdascalculator" element={<PEMDASCalculator />} />
-          <Route path="simplecalculator" element={<SimpleCalculator />} />
+          <Route path='pemdascalculator' element={<PEMDASCalculator />} />
+          <Route path='simplecalculator' element={<SimpleCalculator />} />
           
         </Route>
       </Routes>
@@ -22,7 +22,7 @@ export default function App() {
 }
 
 //remember to import ReactDOM from 'react-dom/client';
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
