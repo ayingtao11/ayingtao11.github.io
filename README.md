@@ -1,1 +1,9 @@
-<script src="./index.js"></script>
+<!DOCTYPE html>
+<html>
+<body>
+
+<script src="./index.js">
+</script>
+
+</body>
+</html>
