@@ -5,6 +5,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import PEMDASCalculator from "./pages/PEMDASCalculator";
 import SimpleCalculator from "./pages/SimpleCalculator";
+import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 export default function App() {
   return (
@@ -24,11 +25,16 @@ export default function App() {
 //remember to import ReactDOM from 'react-dom/client';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+     <App />
+   </BrowserRouter>
+  
 );
 /*
+<React.StrictMode>
+    <App />
+  </React.StrictMode>
+  
 ReactDOM.render is no longer supported in React 18. Use createRoot instead.
 Until you switch to the new API, your app will behave as if it's running React 17.
 
