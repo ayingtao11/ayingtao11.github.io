@@ -8,7 +8,7 @@ import SimpleCalculator from './pages/SimpleCalculator';
 
 export default function App() {
   return (
-    <BrowserRouter basename="./pages/index.js">
+    <BrowserRouter >
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />
@@ -24,7 +24,7 @@ export default function App() {
 //remember to import ReactDOM from 'react-dom/client';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode basename="./pages/index.html">
     <App />
   </React.StrictMode>
 );
