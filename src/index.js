@@ -10,8 +10,8 @@ export default function App() {
   return (
     <BrowserRouter >
       <Routes>
-        <Route path='layout' element={<Layout />}>
-          <Route path='/' element={<Home />} />
+        <Route path='/' element={<Layout />}>
+          <Route path='home' element={<Home />} />
           <Route path='pemdascalculator' element={<PEMDASCalculator />} />
           <Route path='simplecalculator' element={<SimpleCalculator />} />
           
