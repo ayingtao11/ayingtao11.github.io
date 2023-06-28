@@ -11,7 +11,7 @@ export default function App() {
     <BrowserRouter >
       <Routes>
         <Route path='/' element={<Layout />}>
-          <Route path='home' element={<Home />} />
+          <Route index element={<Home />} />
           <Route path='pemdascalculator' element={<PEMDASCalculator />} />
           <Route path='simplecalculator' element={<SimpleCalculator />} />
           
