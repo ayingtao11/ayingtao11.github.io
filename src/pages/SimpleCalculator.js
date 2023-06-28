@@ -175,7 +175,7 @@ function SimpleCalculator() {
   
   return (
     <div className = "cal">
-      <h1>Simple Calculator 1</h1>
+      <h1>Simple Calculator 2</h1>
       <Wrapper>
       <Screen value={!calc.res && calc.sign 
         ? "0" + calc.sign + (calc.num===0 ? "" : calc.num)
