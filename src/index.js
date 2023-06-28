@@ -24,7 +24,7 @@ export default function App() {
 //remember to import ReactDOM from 'react-dom/client';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode basename="./pages/index.html">
+  <React.StrictMode basename='/index'>
     <App />
   </React.StrictMode>
 );
